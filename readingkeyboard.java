@@ -1,5 +1,4 @@
-import java.lang.*;
-import java.util.*; /*util is the package to reading keyboard inputs */
+import java.util.Scanner; /*util is the package to reading keyboard inputs */
 
 public class readingkeyboard{
     public static void main(String[] args){
