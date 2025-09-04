@@ -8,7 +8,9 @@ public class Placeholder{
 
         System.out.printf("Value of pi: %.2f", 3.14159);
 
-        System.out.printf("\n Hex value: %x", 255);
+        System.out.printf("\nHex value: %x", 255);
+
+        System.out.printf("\nAll I said is %b", true);
 
 
 
