@@ -14,7 +14,7 @@ public class CompoundInterest {
         principal = scan.nextDouble();
 
         System.out.print("Enter the interest rate (in %): ");
-        rate = scan.nextDouble();
+        rate = scan.nextDouble() / 100;
 
         System.out.print("Enter the # of times compouned per year: ");
         timesCompounded = scan.nextInt();
