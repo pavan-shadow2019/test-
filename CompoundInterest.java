@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class CompoundInterest {
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+
+        double principal;
+        double rate;
+        int timesCompounded;
+        int years;
+        double amount;
+
+        System.out.print("Enter the principal amount: ");
+        principal = scan.nextDouble();
+
+        System.out.print("Enter the interest rate (in %): ");
+        rate = scan.nextDouble();
+
+        System.out.print("Enter the # of times compouned per year: ");
+        timesCompounded = scan.nextInt();
+
+        System.out.print("Enter times $ of years: ");
+        years = scan.nextInt();
+
+
+
+
+
+        amount = principal * Math.pow(1+ rate/timesCompounded, timesCompounded* years);
+
+        System.out.println("The amount after " + years + "is : Rs." + amount);
+
+        scan.close();
+    }
+}
+
